@@ -1,52 +1,41 @@
-name: Build FlyingMOD (Hover Momentum)
+name: Build FlyingMOD
 
 on:
   push:
-    branches: ["**"]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  build:
+  windows:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup xmake
-        uses: xmake-io/github-action-setup-xmake@v1
+      - name: Setup XMake
+        uses: xmake-io/github-action-setup-xmake@v1.0.13
+        with:
+          xmake-version: '>=3.0.0'
 
-      - name: Locate project directory
-        id: projdir
-        shell: pwsh
+      - name: Update xmake repo
+        run: xmake repo --update
+
+      - name: Clone CommonLibSSE (libxse)
+        shell: bash
         run: |
-          if (Test-Path "xmake.lua") {
-            "dir=." >> $env:GITHUB_OUTPUT
-          } elseif (Test-Path "FlyingMOD-HoverMomentum/xmake.lua") {
-            "dir=FlyingMOD-HoverMomentum" >> $env:GITHUB_OUTPUT
-          } else {
-            Write-Error "xmake.lua weder im Hauptverzeichnis noch unter FlyingMOD-HoverMomentum/ gefunden. Bitte Repository-Struktur pruefen."
-            exit 1
-          }
-
-      - name: Clone clib-util (header-only dependency)
-        shell: pwsh
-        working-directory: ${{ steps.projdir.outputs.dir }}
-        run: |
-          New-Item -ItemType Directory -Force deps | Out-Null
-          git clone --depth 1 https://github.com/powerof3/CLibUtil.git deps/CLibUtil
+          mkdir -p deps/commonlibsse/lib
+          git clone --depth 1 https://github.com/libxse/commonlibsse.git deps/commonlibsse
+          git clone --depth 1 https://github.com/libxse/commonlib-shared.git deps/commonlibsse/lib/commonlib-shared
 
       - name: Configure
-        working-directory: ${{ steps.projdir.outputs.dir }}
-        run: xmake f --mode=release --yes
+        run: xmake f --mode=release --commonlib_xbyak=y --yes
 
       - name: Build
-        working-directory: ${{ steps.projdir.outputs.dir }}
         run: xmake -y
 
       - name: Upload DLL
         uses: actions/upload-artifact@v4
         with:
           name: FlyingMOD-HoverMomentum
-          path: ${{ steps.projdir.outputs.dir }}/build/windows/x64/release/FlyingMOD.dll
+          path: build/windows/x64/release/FlyingMOD.dll
           if-no-files-found: error
