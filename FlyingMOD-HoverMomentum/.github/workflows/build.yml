@@ -1,0 +1,36 @@
+name: Build FlyingMOD (Hover Momentum)
+
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup xmake
+        uses: xmake-io/github-action-setup-xmake@v1
+
+      - name: Clone clib-util (header-only dependency)
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force deps | Out-Null
+          git clone --depth 1 https://github.com/powerof3/CLibUtil.git deps/CLibUtil
+
+      - name: Configure
+        run: xmake f --mode=release --yes
+
+      - name: Build
+        run: xmake -y
+
+      - name: Upload DLL
+        uses: actions/upload-artifact@v4
+        with:
+          name: FlyingMOD-HoverMomentum
+          path: build/windows/x64/release/FlyingMOD.dll
+          if-no-files-found: error
