@@ -57,8 +57,8 @@ extern "C" DLLEXPORT constinit auto SKSEPlugin_Version = []() {
 	version.PluginName(Plugin::NAME);
 	version.AuthorName("z65536"sv);
 	version.CompatibleVersions({});
-	version.UsesAddressLibrary();
-	version.UsesUpdatedStructs();
+	    version.UsesAddressLibrary(true);
+    version.IsLayoutDependent(true);
 	return version;
 }();
 #else
