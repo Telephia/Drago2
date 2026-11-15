@@ -8,8 +8,7 @@
 #include "SKSE/SKSE.h"
 
 // REX::Singleton gibt es erst in neueren CommonLibSSE-NG-Versionen als v3.7.0,
-// das xmake-Paket liefert sie nicht mit. Funktionstüchtige, eigenständige
-// Umsetzung derselben Vorlage:
+// das xmake-Paket liefert sie nicht mit. Eigenstaendige Umsetzung derselben Vorlage:
 namespace REX
 {
     template <class T>
@@ -37,12 +36,9 @@ namespace REX
 #endif
 #include <xbyak/xbyak.h>
 
-#include <ClibUtil/simpleINI.hpp>
-#include <ClibUtil/string.hpp>
+#include <SimpleIni.h>
 
 namespace logger = SKSE::log;
-namespace string = clib_util::string;
-namespace ini = clib_util::ini;
 
 using namespace std::literals;
 
