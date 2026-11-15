@@ -7,29 +7,6 @@
 #include "RE/Skyrim.h"
 #include "SKSE/SKSE.h"
 
-// REX::Singleton gibt es erst in neueren CommonLibSSE-NG-Versionen als v3.7.0,
-// das xmake-Paket liefert sie nicht mit. Eigenstaendige Umsetzung derselben Vorlage:
-namespace REX
-{
-    template <class T>
-    class Singleton
-    {
-    public:
-        Singleton(const Singleton&) = delete;
-        Singleton(Singleton&&) = delete;
-
-        [[nodiscard]] static T* GetSingleton()
-        {
-            static T singleton{};
-            return std::addressof(singleton);
-        }
-
-    protected:
-        Singleton() = default;
-        ~Singleton() = default;
-    };
-}
-
 #include <spdlog/sinks/basic_file_sink.h>
 #ifndef NDEBUG
 #include <spdlog/sinks/msvc_sink.h>
