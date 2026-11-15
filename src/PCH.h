@@ -19,6 +19,35 @@ namespace logger = SKSE::log;
 
 using namespace std::literals;
 
+// --- Kompatibilitaets-Shims fuer die libxse-CommonLibSSE ---
+
+namespace RE
+{
+    // frueher (CommonLibSSE-NG): BSTSmartPointer<Actor>
+    using ActorPtr = NiPointer<Actor>;
+}
+
+namespace SKSE
+{
+    // der Trampoline liegt in der neuen Bibliothek unter REL
+    [[nodiscard]] inline REL::Trampoline& GetTrampoline() noexcept
+    {
+        return REL::GetTrampoline();
+    }
+
+    namespace stl
+    {
+        // Nachfolger ist REX::FAIL (loggt kritisch, zeigt Meldungsbox, beendet den Prozess)
+        [[noreturn]] inline void report_and_fail(std::string_view a_message)
+        {
+            REX::FAIL(a_message);
+            std::unreachable();
+        }
+    }
+}
+
+// --- Ende der Shims ---
+
 #ifdef SKYRIM_AE
 #	define REL_ID(se, ae) REL::ID(ae)
 #	define OFFSET(se, ae) ae
