@@ -23,7 +23,6 @@ jobs:
       - name: Clone CommonLibSSE (libxse)
         shell: bash
         run: |
-          mkdir -p deps/commonlibsse/lib
           git clone --depth 1 https://github.com/libxse/commonlibsse.git deps/commonlibsse
           git clone --depth 1 https://github.com/libxse/commonlib-shared.git deps/commonlibsse/lib/commonlib-shared
 
