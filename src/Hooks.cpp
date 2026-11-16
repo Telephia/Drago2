@@ -17,13 +17,13 @@ void Hooks::DataLoaded::Install()
 
 	if (!pd_esp) {
 		logger::error("ESP {} NOT found, skipping hooks", PD_ESP_NAME);
-		RE::DebugMessageBox(fmt::format("Play as a Dragon \n ESP {} NOT found, skipping hooks", PD_ESP_NAME).c_str());
+		RE::DebugMessageBox(std::format("Play as a Dragon \n ESP {} NOT found, skipping hooks", PD_ESP_NAME).c_str());
 		return;
 	}
 
 	if (!Form::Install()) {
 		logger::error("Critical FormIDs missing. Aborting all hooks installation.");
-		RE::DebugMessageBox(fmt::format("Play as a Dragon \n Critical FormIDs missing. Aborting all hooks installation.").c_str());
+		RE::DebugMessageBox(std::format("Play as a Dragon \n Critical FormIDs missing. Aborting all hooks installation.").c_str());
 		return;
 	}
 

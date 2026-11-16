@@ -80,7 +80,7 @@ namespace Papyrus
 	bool Bind(VM* vm)
 	{
 		if (!vm) {
-			logger::critical("couldn't get VM State"sv);
+			logger::critical("couldn't get VM State");
 			return false;
 		}
 

@@ -15,7 +15,64 @@
 
 #include <SimpleIni.h>
 
-namespace logger = SKSE::log;
+// SKSE::log::info/warn/error/... existieren in der libxse-CommonLibSSE nicht
+// mehr; das Logging laeuft dort ueber REX::Impl::Log, das intern den
+// spdlog-Default-Logger benutzt (den InitializeLogging() selbst konfiguriert).
+namespace logger
+{
+    using SKSE::log::log_directory;
+
+    namespace detail
+    {
+        inline void log_raw(const REX::ELogLevel a_level, const std::string_view a_msg)
+        {
+            REX::Impl::Log(std::source_location::current(), a_level, a_msg);
+        }
+    }
+
+    inline void critical(const char* a_msg) { detail::log_raw(REX::ELogLevel::Critical, a_msg); }
+    inline void error(const char* a_msg)   { detail::log_raw(REX::ELogLevel::Error, a_msg); }
+    inline void warn(const char* a_msg)    { detail::log_raw(REX::ELogLevel::Warning, a_msg); }
+    inline void info(const char* a_msg)    { detail::log_raw(REX::ELogLevel::Info, a_msg); }
+    inline void debug(const char* a_msg)   { detail::log_raw(REX::ELogLevel::Debug, a_msg); }
+    inline void trace(const char* a_msg)   { detail::log_raw(REX::ELogLevel::Trace, a_msg); }
+
+    template <class... T>
+    void critical(const std::format_string<T...> a_fmt, T&&... a_args)
+    {
+        REX::Impl::Log(std::source_location::current(), REX::ELogLevel::Critical, a_fmt, std::forward<T>(a_args)...);
+    }
+
+    template <class... T>
+    void error(const std::format_string<T...> a_fmt, T&&... a_args)
+    {
+        REX::Impl::Log(std::source_location::current(), REX::ELogLevel::Error, a_fmt, std::forward<T>(a_args)...);
+    }
+
+    template <class... T>
+    void warn(const std::format_string<T...> a_fmt, T&&... a_args)
+    {
+        REX::Impl::Log(std::source_location::current(), REX::ELogLevel::Warning, a_fmt, std::forward<T>(a_args)...);
+    }
+
+    template <class... T>
+    void info(const std::format_string<T...> a_fmt, T&&... a_args)
+    {
+        REX::Impl::Log(std::source_location::current(), REX::ELogLevel::Info, a_fmt, std::forward<T>(a_args)...);
+    }
+
+    template <class... T>
+    void debug(const std::format_string<T...> a_fmt, T&&... a_args)
+    {
+        REX::Impl::Log(std::source_location::current(), REX::ELogLevel::Debug, a_fmt, std::forward<T>(a_args)...);
+    }
+
+    template <class... T>
+    void trace(const std::format_string<T...> a_fmt, T&&... a_args)
+    {
+        REX::Impl::Log(std::source_location::current(), REX::ELogLevel::Trace, a_fmt, std::forward<T>(a_args)...);
+    }
+}
 
 using namespace std::literals;
 
