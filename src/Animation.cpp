@@ -363,7 +363,7 @@ namespace Animation
 			code.ready();
 
 			auto& trampoline = SKSE::GetTrampoline();
-			trampoline.write_branch<6>(target.address(), trampoline.allocate(code));
+			trampoline.write_jmp<6>(target.address(), trampoline.allocate(code));
 
 			static constexpr std::array EVENTS{
 				std::make_pair("DragonLandEffect", OnDragonLandEffect),

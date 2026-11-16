@@ -90,7 +90,7 @@ namespace Camera
 			Code code(targetAdr);
 			code.ready();
 
-			trampoline.write_branch<6>(targetAdr, trampoline.allocate(code));
+			trampoline.write_jmp<6>(targetAdr, trampoline.allocate(code));
 		}
 
 	private:

@@ -54,7 +54,7 @@ namespace Attack
 				Code code(targetBase.address() + 0x2A);
 				code.ready();
 
-				trampoline.write_branch<5>(targetBase.address() + 0x2A, trampoline.allocate(code));
+				trampoline.write_jmp<5>(targetBase.address() + 0x2A, trampoline.allocate(code));
 			}
 
 			{
@@ -93,7 +93,7 @@ namespace Attack
 				Code code(targetAddr);
 				code.ready();
 
-				trampoline.write_branch<6>(targetAddr, trampoline.allocate(code));
+				trampoline.write_jmp<6>(targetAddr, trampoline.allocate(code));
 			}
 			{
 				struct Code : Xbyak::CodeGenerator
@@ -123,7 +123,7 @@ namespace Attack
 				Code code(targetAddr);
 				code.ready();
 
-				trampoline.write_branch<6>(targetAddr, trampoline.allocate(code));
+				trampoline.write_jmp<6>(targetAddr, trampoline.allocate(code));
 			}
 			{
 				struct Code : Xbyak::CodeGenerator
@@ -161,7 +161,7 @@ namespace Attack
 				Code code(targetAddr);
 				code.ready();
 
-				trampoline.write_branch<6>(targetAddr, trampoline.allocate(code));
+				trampoline.write_jmp<6>(targetAddr, trampoline.allocate(code));
 			}
 		}
 	};
@@ -213,7 +213,7 @@ namespace Attack
 				Code code(targetAddr);
 				code.ready();
 
-				trampoline.write_branch<6>(targetAddr, trampoline.allocate(code));
+				trampoline.write_jmp<6>(targetAddr, trampoline.allocate(code));
 			}
 
 			{
@@ -244,7 +244,7 @@ namespace Attack
 				Code code(targetAddr);
 				code.ready();
 
-				trampoline.write_branch<6>(targetAddr, trampoline.allocate(code));
+				trampoline.write_jmp<6>(targetAddr, trampoline.allocate(code));
 			}
 
 			{
@@ -275,7 +275,7 @@ namespace Attack
 				Code code(targetAddr);
 				code.ready();
 
-				trampoline.write_branch<6>(targetAddr, trampoline.allocate(code));
+				trampoline.write_jmp<6>(targetAddr, trampoline.allocate(code));
 			}
 			{
 				struct Code : Xbyak::CodeGenerator
@@ -315,7 +315,7 @@ namespace Attack
 				Code code(targetAddr);
 				code.ready();
 
-				trampoline.write_branch<6>(targetAddr, trampoline.allocate(code));
+				trampoline.write_jmp<6>(targetAddr, trampoline.allocate(code));
 			}
 		}
 	};
@@ -375,7 +375,7 @@ namespace Attack
 			REL::Relocation<std::uintptr_t> target{ RELOCATION_ID(36479, 37478) };
 
 			auto& trampoline = SKSE::GetTrampoline();
-			trampoline.write_branch<6>(target.address(), Func);
+			trampoline.write_jmp<6>(target.address(), Func);
 		}
 
 	private:
