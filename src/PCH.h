@@ -3,6 +3,8 @@
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
 #define NOGDI
+#define UNICODE
+#define _UNICODE
 
 #include "RE/Skyrim.h"
 #include "SKSE/SKSE.h"
