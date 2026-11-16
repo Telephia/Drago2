@@ -1,0 +1,11 @@
+# xmake / build artifacts
+build/
+.xmake/
+vsxmake*/
+
+# locally cloned dependencies
+deps/
+
+# windows build byproducts
+*.pdb
+*.ilk
