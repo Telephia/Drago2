@@ -102,7 +102,7 @@ extern "C" DLLEXPORT bool SKSEPlugin_Load(const SKSE::LoadInterface* skse)
 	auto messaging = SKSE::GetMessagingInterface();
 	messaging->RegisterListener(MessageHandler);
 
-	const auto runtimeVer = REL::Module::get().version();
+	const auto runtimeVer = skse->RuntimeVersion();
 
 	logger::info("Skyrim SSE v{}.{}.{}", runtimeVer[0], runtimeVer[1], runtimeVer[2]);
 	logger::info("{} v{}.{}.{}", Plugin::NAME, Plugin::VERSION[0], Plugin::VERSION[1], Plugin::VERSION[2]);
