@@ -1,0 +1,493 @@
+[0m[38;5;2;1m[  0%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release build\.gens\FlyingMOD\windows\x64\release\src\PCH.h[0m
+[0m[38;5;2;1m[  0%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release build\.gens\commonlibsse\windows\x64\release\deps\commonlibsse\include\SKSE\Impl\PCH.h[0m
+[0m[38;5;2;1m[  0%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release build\.gens\commonlib-shared\windows\x64\release\deps\commonlibsse\lib\commonlib-shared\src\REX\PCH.h[0m
+[0m[38;5;2;1m[  0%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\FHookStore.cpp[0m
+[0m[38;5;2;1m[  0%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\IAT.cpp[0m
+[0m[38;5;2;1m[  0%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\IDDB.cpp[0m
+[0m[38;5;2;1m[  0%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\FHook.cpp[0m
+[0m[38;5;2;1m[  1%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\Offset2ID.cpp[0m
+[0m[38;5;2;1m[  1%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\Trampoline.cpp[0m
+[0m[38;5;2;1m[  1%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\Utility.cpp[0m
+[0m[38;5;2;1m[  1%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REL\Version.cpp[0m
+[0m[38;5;2;1m[  2%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\FIniSettingStore.cpp[0m
+[0m[38;5;2;1m[  2%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\FJsonSettingStore.cpp[0m
+[0m[38;5;2;1m[  2%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\FModule.cpp[0m
+[0m[38;5;2;1m[  2%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\FTomlSettingStore.cpp[0m
+[0m[38;5;2;1m[  2%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\LOG.cpp[0m
+[0m[38;5;2;1m[  3%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\REX.cpp[0m
+[0m[38;5;2;1m[  3%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\TIniSetting.cpp[0m
+[0m[38;5;2;1m[  3%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\TIniSettingA.cpp[0m
+[0m[38;5;2;1m[  3%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\TJsonSetting.cpp[0m
+[0m[38;5;2;1m[  4%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\TRandom.cpp[0m
+[0m[38;5;2;1m[  4%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\TTomlSetting.cpp[0m
+[0m[38;5;2;1m[  4%]:[0m [38;5;5;1m<commonlib-shared>[0m compiling.release deps\commonlibsse\lib\commonlib-shared\src\REX\W32.cpp[0m
+[0m[38;5;2;1m[  4%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ActiveEffect.cpp[0m
+[0m[38;5;2;1m[  4%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ActiveEffectFactory.cpp[0m
+[0m[38;5;2;1m[  5%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\Actor.cpp[0m
+[0m[38;5;2;1m[  5%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ActorEquipManager.cpp[0m
+[0m[38;5;2;1m[  5%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ActorKill.cpp[0m
+[0m[38;5;2;1m[  5%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ActorValueList.cpp[0m
+[0m[38;5;2;1m[  6%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ActorValueOwner.cpp[0m
+[0m[38;5;2;1m[  6%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\AddCallbackVisitor.cpp[0m
+[0m[38;5;2;1m[  6%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\AIFormulas.cpp[0m
+[0m[38;5;2;1m[  6%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\AIProcess.cpp[0m
+[0m[38;5;2;1m[  6%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\AITimer.cpp[0m
+[0m[38;5;2;1m[  7%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ArmorRatingVisitor.cpp[0m
+[0m[38;5;2;1m[  7%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\ArmorRatingVisitorBase.cpp[0m
+[0m[38;5;2;1m[  7%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\A\Array.cpp[0m
+[0m[38;5;2;1m[  7%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BarterMenu.cpp[0m
+[0m[38;5;2;1m[  8%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSAttackData.cpp[0m
+[0m[38;5;2;1m[  8%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSAutoWater.cpp[0m
+[0m[38;5;2;1m[  8%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSBaseAlias.cpp[0m
+[0m[38;5;2;1m[  8%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSBipedObjectForm.cpp[0m
+[0m[38;5;2;1m[  8%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSColorForm.cpp[0m
+[0m[38;5;2;1m[  9%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSConstructibleObject.cpp[0m
+[0m[38;5;2;1m[  9%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSCreatedObjectManager.cpp[0m
+[0m[38;5;2;1m[  9%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSDebris.cpp[0m
+[0m[38;5;2;1m[  9%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSDistantObjectBlock.cpp[0m
+[0m[38;5;2;1m[ 10%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSDistantTreeBlock.cpp[0m
+[0m[38;5;2;1m[ 10%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSEntryPointFunctionDataActivateChoice.cpp[0m
+[0m[38;5;2;1m[ 10%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSEntryPointPerkEntry.cpp[0m
+[0m[38;5;2;1m[ 10%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSFootstepManager.cpp[0m
+[0m[38;5;2;1m[ 10%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSHeadPart.cpp[0m
+[0m[38;5;2;1m[ 11%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSIdleCollection.cpp[0m
+[0m[38;5;2;1m[ 11%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSKeywordForm.cpp[0m
+[0m[38;5;2;1m[ 11%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSListForm.cpp[0m
+[0m[38;5;2;1m[ 11%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSLocation.cpp[0m
+[0m[38;5;2;1m[ 12%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSOpenCloseForm.cpp[0m
+[0m[38;5;2;1m[ 12%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSPerkEntry.cpp[0m
+[0m[38;5;2;1m[ 12%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSPerkRankArray.cpp[0m
+[0m[38;5;2;1m[ 12%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSRefAlias.cpp[0m
+[0m[38;5;2;1m[ 12%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSSaveLoadManager.cpp[0m
+[0m[38;5;2;1m[ 13%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSSkillPerkTreeNode.cpp[0m
+[0m[38;5;2;1m[ 13%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSSoundCategory.cpp[0m
+[0m[38;5;2;1m[ 13%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSStoryTeller.cpp[0m
+[0m[38;5;2;1m[ 13%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSTerrainChunk.cpp[0m
+[0m[38;5;2;1m[ 14%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BGSTerrainManager.cpp[0m
+[0m[38;5;2;1m[ 14%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\bhkCharProxyController.cpp[0m
+[0m[38;5;2;1m[ 14%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\bhkRigidBody.cpp[0m
+[0m[38;5;2;1m[ 14%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BipedAnim.cpp[0m
+[0m[38;5;2;1m[ 15%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BookMenu.cpp[0m
+[0m[38;5;2;1m[ 15%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BooksRead.cpp[0m
+[0m[38;5;2;1m[ 15%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSAtomic.cpp[0m
+[0m[38;5;2;1m[ 15%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSAudioManager.cpp[0m
+[0m[38;5;2;1m[ 15%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSCompoundFrustum.cpp[0m
+[0m[38;5;2;1m[ 16%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSCubeMapCamera.cpp[0m
+[0m[38;5;2;1m[ 16%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSCullingProcess.cpp[0m
+[0m[38;5;2;1m[ 16%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSDirectInputManager.cpp[0m
+[0m[38;5;2;1m[ 16%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSEffectShaderData.cpp[0m
+[0m[38;5;2;1m[ 17%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSExtraData.cpp[0m
+[0m[38;5;2;1m[ 17%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSFaceGenAnimationData.cpp[0m
+[0m[38;5;2;1m[ 17%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSFaceGenKeyframeMultiple.cpp[0m
+[0m[38;5;2;1m[ 17%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSFixedString.cpp[0m
+[0m[38;5;2;1m[ 17%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSGamepadDevice.cpp[0m
+[0m[38;5;2;1m[ 18%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSGameSound.cpp[0m
+[0m[38;5;2;1m[ 18%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSHandleRefObject.cpp[0m
+[0m[38;5;2;1m[ 18%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSImagespaceShader.cpp[0m
+[0m[38;5;2;1m[ 18%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSInputDevice.cpp[0m
+[0m[38;5;2;1m[ 19%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSInputDeviceFactory.cpp[0m
+[0m[38;5;2;1m[ 19%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSInputDeviceManager.cpp[0m
+[0m[38;5;2;1m[ 19%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSInputEventQueue.cpp[0m
+[0m[38;5;2;1m[ 19%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSInvMarker.cpp[0m
+[0m[38;5;2;1m[ 19%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSKeyboardDevice.cpp[0m
+[0m[38;5;2;1m[ 20%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSLightingShaderMaterialBase.cpp[0m
+[0m[38;5;2;1m[ 20%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSLightingShaderProperty.cpp[0m
+[0m[38;5;2;1m[ 20%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSModelDB.cpp[0m
+[0m[38;5;2;1m[ 20%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSMouseDevice.cpp[0m
+[0m[38;5;2;1m[ 21%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSOcclusionPlane.cpp[0m
+[0m[38;5;2;1m[ 21%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSPCGamepadDeviceDelegate.cpp[0m
+[0m[38;5;2;1m[ 21%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSPCGamepadDeviceHandler.cpp[0m
+[0m[38;5;2;1m[ 21%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSPCOrbisGamepadDevice.cpp[0m
+[0m[38;5;2;1m[ 21%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSPointerHandle.cpp[0m
+[0m[38;5;2;1m[ 22%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSPortalGraph.cpp[0m
+[0m[38;5;2;1m[ 22%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSPortalGraphEntry.cpp[0m
+[0m[38;5;2;1m[ 22%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSResourceNiBinaryStream.cpp[0m
+[0m[38;5;2;1m[ 22%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSResponse.cpp[0m
+[0m[38;5;2;1m[ 23%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSScaleformManager.cpp[0m
+[0m[38;5;2;1m[ 23%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSScaleformTranslator.cpp[0m
+[0m[38;5;2;1m[ 23%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSScriptObjectBindPolicy.cpp[0m
+[0m[38;5;2;1m[ 23%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSShaderAccumulator.cpp[0m
+[0m[38;5;2;1m[ 23%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSShaderProperty.cpp[0m
+[0m[38;5;2;1m[ 24%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSShaderTextureSet.cpp[0m
+[0m[38;5;2;1m[ 24%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSSoundHandle.cpp[0m
+[0m[38;5;2;1m[ 24%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSStringPool.cpp[0m
+[0m[38;5;2;1m[ 24%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSSystemFileStorage.cpp[0m
+[0m[38;5;2;1m[ 25%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSTArray.cpp[0m
+[0m[38;5;2;1m[ 25%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSTCreateFactoryManager.cpp[0m
+[0m[38;5;2;1m[ 25%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSUIMessageData.cpp[0m
+[0m[38;5;2;1m[ 25%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSVirtualKeyboardDevice.cpp[0m
+[0m[38;5;2;1m[ 25%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSVisit.cpp[0m
+[0m[38;5;2;1m[ 26%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSWin32GamepadDevice.cpp[0m
+[0m[38;5;2;1m[ 26%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSWin32KeyboardDevice.cpp[0m
+[0m[38;5;2;1m[ 26%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSWin32MouseDevice.cpp[0m
+[0m[38;5;2;1m[ 26%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSWin32SaveDataSystemUtility.cpp[0m
+[0m[38;5;2;1m[ 27%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSWin32VirtualKeyboardDevice.cpp[0m
+[0m[38;5;2;1m[ 27%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSWindModifier.cpp[0m
+[0m[38;5;2;1m[ 27%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\B\BSXFlags.cpp[0m
+[0m[38;5;2;1m[ 27%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\Calendar.cpp[0m
+[0m[38;5;2;1m[ 28%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CFilter.cpp[0m
+[0m[38;5;2;1m[ 28%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\ChestsLooted.cpp[0m
+[0m[38;5;2;1m[ 28%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CollisionLayers.cpp[0m
+[0m[38;5;2;1m[ 28%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\Color.cpp[0m
+[0m[38;5;2;1m[ 28%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\ColorUtil.cpp[0m
+[0m[38;5;2;1m[ 29%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CombatAnimation.cpp[0m
+[0m[38;5;2;1m[ 29%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CombatBehaviorController.cpp[0m
+[0m[38;5;2;1m[ 29%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CombatBehaviorTree.cpp[0m
+[0m[38;5;2;1m[ 29%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CombatBehaviorTreeNode.cpp[0m
+[0m[38;5;2;1m[ 30%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CommandTable.cpp[0m
+[0m[38;5;2;1m[ 30%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\Console.cpp[0m
+[0m[38;5;2;1m[ 30%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\ConsoleLog.cpp[0m
+[0m[38;5;2;1m[ 30%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\ContainerItemExtra.cpp[0m
+[0m[38;5;2;1m[ 30%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\ContainerMenu.cpp[0m
+[0m[38;5;2;1m[ 31%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\ControlMap.cpp[0m
+[0m[38;5;2;1m[ 31%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\C\CriticalHit.cpp[0m
+[0m[38;5;2;1m[ 31%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\D\DisarmedEvent.cpp[0m
+[0m[38;5;2;1m[ 31%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\D\DragonSoulsGained.cpp[0m
+[0m[38;5;2;1m[ 32%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\Effect.cpp[0m
+[0m[38;5;2;1m[ 32%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\EnchantConstructMenu.cpp[0m
+[0m[38;5;2;1m[ 32%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraAliasInstanceArray.cpp[0m
+[0m[38;5;2;1m[ 32%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraAshPileRef.cpp[0m
+[0m[38;5;2;1m[ 32%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraCannotWear.cpp[0m
+[0m[38;5;2;1m[ 33%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraCanTalkToPlayer.cpp[0m
+[0m[38;5;2;1m[ 33%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraCharge.cpp[0m
+[0m[38;5;2;1m[ 33%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraContainerChanges.cpp[0m
+[0m[38;5;2;1m[ 33%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraCount.cpp[0m
+[0m[38;5;2;1m[ 34%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraDataList.cpp[0m
+[0m[38;5;2;1m[ 34%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraEnchantment.cpp[0m
+[0m[38;5;2;1m[ 34%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraEncounterZone.cpp[0m
+[0m[38;5;2;1m[ 34%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraForcedTarget.cpp[0m
+[0m[38;5;2;1m[ 34%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraHealth.cpp[0m
+[0m[38;5;2;1m[ 35%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraHotkey.cpp[0m
+[0m[38;5;2;1m[ 35%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraLevCreaModifier.cpp[0m
+[0m[38;5;2;1m[ 35%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraLightData.cpp[0m
+[0m[38;5;2;1m[ 35%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraLinkedRef.cpp[0m
+[0m[38;5;2;1m[ 36%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraLock.cpp[0m
+[0m[38;5;2;1m[ 36%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraMissingLinkedRefIDs.cpp[0m
+[0m[38;5;2;1m[ 36%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraNorthRotation.cpp[0m
+[0m[38;5;2;1m[ 36%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraOwnership.cpp[0m
+[0m[38;5;2;1m[ 36%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraPoison.cpp[0m
+[0m[38;5;2;1m[ 37%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraRank.cpp[0m
+[0m[38;5;2;1m[ 37%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraReferenceHandle.cpp[0m
+[0m[38;5;2;1m[ 37%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraSoul.cpp[0m
+[0m[38;5;2;1m[ 37%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraTextDisplayData.cpp[0m
+[0m[38;5;2;1m[ 38%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\E\ExtraUniqueID.cpp[0m
+[0m[38;5;2;1m[ 38%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\F\FindMaxMagnitudeVisitor.cpp[0m
+[0m[38;5;2;1m[ 38%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\F\FormTypes.cpp[0m
+[0m[38;5;2;1m[ 38%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\F\FxDelegate.cpp[0m
+[0m[38;5;2;1m[ 38%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\F\FxDelegateArgs.cpp[0m
+[0m[38;5;2;1m[ 39%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GameSettingCollection.cpp[0m
+[0m[38;5;2;1m[ 39%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GAtomic.cpp[0m
+[0m[38;5;2;1m[ 39%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxLoader.cpp[0m
+[0m[38;5;2;1m[ 39%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxLog.cpp[0m
+[0m[38;5;2;1m[ 40%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxMovie.cpp[0m
+[0m[38;5;2;1m[ 40%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxMovieDataDef.cpp[0m
+[0m[38;5;2;1m[ 40%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxMovieDef.cpp[0m
+[0m[38;5;2;1m[ 40%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxMovieView.cpp[0m
+[0m[38;5;2;1m[ 41%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxRenderConfig.cpp[0m
+[0m[38;5;2;1m[ 41%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxResource.cpp[0m
+[0m[38;5;2;1m[ 41%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxResourceID.cpp[0m
+[0m[38;5;2;1m[ 41%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxResourceKey.cpp[0m
+[0m[38;5;2;1m[ 41%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxState.cpp[0m
+[0m[38;5;2;1m[ 42%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxStateBag.cpp[0m
+[0m[38;5;2;1m[ 42%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxTranslator.cpp[0m
+[0m[38;5;2;1m[ 42%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxValue.cpp[0m
+[0m[38;5;2;1m[ 42%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxWStringBuffer.cpp[0m
+[0m[38;5;2;1m[ 43%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GFxWWHelper.cpp[0m
+[0m[38;5;2;1m[ 43%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GiftMenu.cpp[0m
+[0m[38;5;2;1m[ 43%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GMemory.cpp[0m
+[0m[38;5;2;1m[ 43%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GMemoryHeap.cpp[0m
+[0m[38;5;2;1m[ 43%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GRefCountImpl.cpp[0m
+[0m[38;5;2;1m[ 44%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GRefCountNTSImpl.cpp[0m
+[0m[38;5;2;1m[ 44%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GRenderer.cpp[0m
+[0m[38;5;2;1m[ 44%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GStd.cpp[0m
+[0m[38;5;2;1m[ 44%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GString.cpp[0m
+[0m[38;5;2;1m[ 45%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\G\GViewport.cpp[0m
+[0m[38;5;2;1m[ 45%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\HeapBlock.cpp[0m
+[0m[38;5;2;1m[ 45%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\HeldStateHandler.cpp[0m
+[0m[38;5;2;1m[ 45%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkBaseTypes.cpp[0m
+[0m[38;5;2;1m[ 45%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpAabbPhantom.cpp[0m
+[0m[38;5;2;1m[ 46%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpAddModifierUtil.cpp[0m
+[0m[38;5;2;1m[ 46%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpBroadPhase.cpp[0m
+[0m[38;5;2;1m[ 46%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpCdBody.cpp[0m
+[0m[38;5;2;1m[ 46%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpCharacterProxyListener.cpp[0m
+[0m[38;5;2;1m[ 47%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpMaterial.cpp[0m
+[0m[38;5;2;1m[ 47%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpProperty.cpp[0m
+[0m[38;5;2;1m[ 47%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpResponseModifier.cpp[0m
+[0m[38;5;2;1m[ 47%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpRigidBody.cpp[0m
+[0m[38;5;2;1m[ 47%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpShapePhantom.cpp[0m
+[0m[38;5;2;1m[ 48%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpWorld.cpp[0m
+[0m[38;5;2;1m[ 48%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkpWorldObject.cpp[0m
+[0m[38;5;2;1m[ 48%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkReferencedObject.cpp[0m
+[0m[38;5;2;1m[ 48%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkStringPtr.cpp[0m
+[0m[38;5;2;1m[ 49%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\hkVector4.cpp[0m
+[0m[38;5;2;1m[ 49%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\HUDMeter.cpp[0m
+[0m[38;5;2;1m[ 49%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\H\HUDObject.cpp[0m
+[0m[38;5;2;1m[ 49%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IAnimationGraphManagerHolder.cpp[0m
+[0m[38;5;2;1m[ 49%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IFormFactory.cpp[0m
+[0m[38;5;2;1m[ 50%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IFunction.cpp[0m
+[0m[38;5;2;1m[ 50%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IHandlerFunctor.cpp[0m
+[0m[38;5;2;1m[ 50%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IMemoryStore.cpp[0m
+[0m[38;5;2;1m[ 50%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IMenu.cpp[0m
+[0m[38;5;2;1m[ 51%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IngredientItem.cpp[0m
+[0m[38;5;2;1m[ 51%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\INIPrefSettingCollection.cpp[0m
+[0m[38;5;2;1m[ 51%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\INISettingCollection.cpp[0m
+[0m[38;5;2;1m[ 51%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\InputEvent.cpp[0m
+[0m[38;5;2;1m[ 51%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\InterfaceStrings.cpp[0m
+[0m[38;5;2;1m[ 52%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\Inventory.cpp[0m
+[0m[38;5;2;1m[ 52%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\Inventory3DManager.cpp[0m
+[0m[38;5;2;1m[ 52%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\InventoryChanges.cpp[0m
+[0m[38;5;2;1m[ 52%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\InventoryEntryData.cpp[0m
+[0m[38;5;2;1m[ 53%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IObjectHandlePolicy.cpp[0m
+[0m[38;5;2;1m[ 53%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IStackCallbackFunctor.cpp[0m
+[0m[38;5;2;1m[ 53%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\ItemCrafted.cpp[0m
+[0m[38;5;2;1m[ 53%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\ItemHarvested.cpp[0m
+[0m[38;5;2;1m[ 53%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\ItemList.cpp[0m
+[0m[38;5;2;1m[ 54%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\ItemsPickpocketed.cpp[0m
+[0m[38;5;2;1m[ 54%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\I\IVirtualMachine.cpp[0m
+[0m[38;5;2;1m[ 54%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\L\LevelIncrease.cpp[0m
+[0m[38;5;2;1m[ 54%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\L\LocalMapCamera.cpp[0m
+[0m[38;5;2;1m[ 55%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\L\Location.cpp[0m
+[0m[38;5;2;1m[ 55%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\L\LocationCleared.cpp[0m
+[0m[38;5;2;1m[ 55%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\L\LocationDiscovery.cpp[0m
+[0m[38;5;2;1m[ 55%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\L\LockpickingMenu.cpp[0m
+[0m[38;5;2;1m[ 56%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicCaster.cpp[0m
+[0m[38;5;2;1m[ 56%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicFavorites.cpp[0m
+[0m[38;5;2;1m[ 56%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicFormulas.cpp[0m
+[0m[38;5;2;1m[ 56%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicItem.cpp[0m
+[0m[38;5;2;1m[ 56%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicItemDataCollector.cpp[0m
+[0m[38;5;2;1m[ 57%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicItemList.cpp[0m
+[0m[38;5;2;1m[ 57%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicSystem.cpp[0m
+[0m[38;5;2;1m[ 57%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicTarget.cpp[0m
+[0m[38;5;2;1m[ 57%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MagicUtilities.cpp[0m
+[0m[38;5;2;1m[ 58%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\Main.cpp[0m
+[0m[38;5;2;1m[ 58%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MaterialIDs.cpp[0m
+[0m[38;5;2;1m[ 58%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MemoryPage.cpp[0m
+[0m[38;5;2;1m[ 58%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MenuControls.cpp[0m
+[0m[38;5;2;1m[ 58%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MenuCursor.cpp[0m
+[0m[38;5;2;1m[ 59%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MenuEventHandler.cpp[0m
+[0m[38;5;2;1m[ 59%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\MessageBoxMenu.cpp[0m
+[0m[38;5;2;1m[ 59%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\M\Misc.cpp[0m
+[0m[38;5;2;1m[ 59%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NativeFunctionBase.cpp[0m
+[0m[38;5;2;1m[ 60%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiAlphaProperty.cpp[0m
+[0m[38;5;2;1m[ 60%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiAnimationKey.cpp[0m
+[0m[38;5;2;1m[ 60%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiAVObject.cpp[0m
+[0m[38;5;2;1m[ 60%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiBackToFrontAccumulator.cpp[0m
+[0m[38;5;2;1m[ 60%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiBinaryStream.cpp[0m
+[0m[38;5;2;1m[ 61%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiBooleanExtraData.cpp[0m
+[0m[38;5;2;1m[ 61%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiCamera.cpp[0m
+[0m[38;5;2;1m[ 61%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiColor.cpp[0m
+[0m[38;5;2;1m[ 61%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiColorData.cpp[0m
+[0m[38;5;2;1m[ 62%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiColorKey.cpp[0m
+[0m[38;5;2;1m[ 62%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiControllerManager.cpp[0m
+[0m[38;5;2;1m[ 62%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiControllerSequence.cpp[0m
+[0m[38;5;2;1m[ 62%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiCullingProcess.cpp[0m
+[0m[38;5;2;1m[ 62%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiExtraData.cpp[0m
+[0m[38;5;2;1m[ 63%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiFloatData.cpp[0m
+[0m[38;5;2;1m[ 63%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiFloatExtraData.cpp[0m
+[0m[38;5;2;1m[ 63%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiFloatKey.cpp[0m
+[0m[38;5;2;1m[ 63%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiFloatsExtraData.cpp[0m
+[0m[38;5;2;1m[ 64%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiIntegerExtraData.cpp[0m
+[0m[38;5;2;1m[ 64%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiIntegersExtraData.cpp[0m
+[0m[38;5;2;1m[ 64%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiInterpolator.cpp[0m
+[0m[38;5;2;1m[ 64%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiMath.cpp[0m
+[0m[38;5;2;1m[ 64%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiMatrix3.cpp[0m
+[0m[38;5;2;1m[ 65%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiMemManager.cpp[0m
+[0m[38;5;2;1m[ 65%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiNode.cpp[0m
+[0m[38;5;2;1m[ 65%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiObject.cpp[0m
+[0m[38;5;2;1m[ 65%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiObjectNET.cpp[0m
+[0m[38;5;2;1m[ 66%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiPick.cpp[0m
+[0m[38;5;2;1m[ 66%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiPoint2.cpp[0m
+[0m[38;5;2;1m[ 66%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiPoint3.cpp[0m
+[0m[38;5;2;1m[ 66%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiQuaternion.cpp[0m
+[0m[38;5;2;1m[ 66%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiRefObject.cpp[0m
+[0m[38;5;2;1m[ 67%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiSkinInstance.cpp[0m
+[0m[38;5;2;1m[ 67%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiStringsExtraData.cpp[0m
+[0m[38;5;2;1m[ 67%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiSystem.cpp[0m
+[0m[38;5;2;1m[ 67%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiTCollection.cpp[0m
+[0m[38;5;2;1m[ 68%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiTexture.cpp[0m
+[0m[38;5;2;1m[ 68%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiTimeController.cpp[0m
+[0m[38;5;2;1m[ 68%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\N\NiTransform.cpp[0m
+[0m[38;5;2;1m[ 68%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\O\Object.cpp[0m
+[0m[38;5;2;1m[ 69%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\O\ObjectiveState.cpp[0m
+[0m[38;5;2;1m[ 69%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\O\ObjectTypeInfo.cpp[0m
+[0m[38;5;2;1m[ 69%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\O\ObjectTypes.cpp[0m
+[0m[38;5;2;1m[ 69%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\PackedInstructionStream.cpp[0m
+[0m[38;5;2;1m[ 69%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\PackUnpack.cpp[0m
+[0m[38;5;2;1m[ 70%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\PlayerCamera.cpp[0m
+[0m[38;5;2;1m[ 70%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\PlayerCharacter.cpp[0m
+[0m[38;5;2;1m[ 70%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\PlayerControls.cpp[0m
+[0m[38;5;2;1m[ 70%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\PlayerInputHandler.cpp[0m
+[0m[38;5;2;1m[ 71%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\ProcessLists.cpp[0m
+[0m[38;5;2;1m[ 71%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\P\Projectile.cpp[0m
+[0m[38;5;2;1m[ 71%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\Q\QuestStatus.cpp[0m
+[0m[38;5;2;1m[ 71%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\R\RaceSexMenu.cpp[0m
+[0m[38;5;2;1m[ 71%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\R\ReferenceEffectController.cpp[0m
+[0m[38;5;2;1m[ 72%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\R\RemoveCallbackVisitor.cpp[0m
+[0m[38;5;2;1m[ 72%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\R\Renderer.cpp[0m
+[0m[38;5;2;1m[ 72%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\R\RenderTargetManager.cpp[0m
+[0m[38;5;2;1m[ 72%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\R\Rumble.cpp[0m
+[0m[38;5;2;1m[ 73%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\ScrapHeap.cpp[0m
+[0m[38;5;2;1m[ 73%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\Script.cpp[0m
+[0m[38;5;2;1m[ 73%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\ScriptEventSourceHolder.cpp[0m
+[0m[38;5;2;1m[ 73%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\SendHUDMessage.cpp[0m
+[0m[38;5;2;1m[ 73%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\SendUIMessage.cpp[0m
+[0m[38;5;2;1m[ 74%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\Setting.cpp[0m
+[0m[38;5;2;1m[ 74%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\ShadowSceneNode.cpp[0m
+[0m[38;5;2;1m[ 74%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\ShoutAttack.cpp[0m
+[0m[38;5;2;1m[ 74%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\SkillIncrease.cpp[0m
+[0m[38;5;2;1m[ 75%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\Sky.cpp[0m
+[0m[38;5;2;1m[ 75%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\SkyrimVM.cpp[0m
+[0m[38;5;2;1m[ 75%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\SoulsTrapped.cpp[0m
+[0m[38;5;2;1m[ 75%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\SourceActionMap.cpp[0m
+[0m[38;5;2;1m[ 75%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\SpellsLearned.cpp[0m
+[0m[38;5;2;1m[ 76%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\Stack.cpp[0m
+[0m[38;5;2;1m[ 76%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\StackFrame.cpp[0m
+[0m[38;5;2;1m[ 76%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\Stream.cpp[0m
+[0m[38;5;2;1m[ 76%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\StreamBase.cpp[0m
+[0m[38;5;2;1m[ 77%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\S\Sun.cpp[0m
+[0m[38;5;2;1m[ 77%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\Skyrim.cpp[0m
+[0m[38;5;2;1m[ 77%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TaskQueueInterface.cpp[0m
+[0m[38;5;2;1m[ 77%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TES.cpp[0m
+[0m[38;5;2;1m[ 77%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESAIForm.cpp[0m
+[0m[38;5;2;1m[ 78%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESAmmo.cpp[0m
+[0m[38;5;2;1m[ 78%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESCamera.cpp[0m
+[0m[38;5;2;1m[ 78%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESClimate.cpp[0m
+[0m[38;5;2;1m[ 78%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESCondition.cpp[0m
+[0m[38;5;2;1m[ 79%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESContainer.cpp[0m
+[0m[38;5;2;1m[ 79%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESDataHandler.cpp[0m
+[0m[38;5;2;1m[ 79%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESDescription.cpp[0m
+[0m[38;5;2;1m[ 79%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESFaction.cpp[0m
+[0m[38;5;2;1m[ 79%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESFile.cpp[0m
+[0m[38;5;2;1m[ 80%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESForm.cpp[0m
+[0m[38;5;2;1m[ 80%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESHavokUtilities.cpp[0m
+[0m[38;5;2;1m[ 80%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESHitEvent.cpp[0m
+[0m[38;5;2;1m[ 80%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESLeveledList.cpp[0m
+[0m[38;5;2;1m[ 81%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESNPC.cpp[0m
+[0m[38;5;2;1m[ 81%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESObjectARMA.cpp[0m
+[0m[38;5;2;1m[ 81%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESObjectARMO.cpp[0m
+[0m[38;5;2;1m[ 81%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESObjectBOOK.cpp[0m
+[0m[38;5;2;1m[ 82%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESObjectCELL.cpp[0m
+[0m[38;5;2;1m[ 82%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESObjectREFR.cpp[0m
+[0m[38;5;2;1m[ 82%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESObjectSTAT.cpp[0m
+[0m[38;5;2;1m[ 82%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESObjectWEAP.cpp[0m
+[0m[38;5;2;1m[ 82%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESQuest.cpp[0m
+[0m[38;5;2;1m[ 83%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESRace.cpp[0m
+[0m[38;5;2;1m[ 83%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESSpellList.cpp[0m
+[0m[38;5;2;1m[ 83%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESTopic.cpp[0m
+[0m[38;5;2;1m[ 83%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESTopicInfo.cpp[0m
+[0m[38;5;2;1m[ 84%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESValueForm.cpp[0m
+[0m[38;5;2;1m[ 84%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESWaterReflections.cpp[0m
+[0m[38;5;2;1m[ 84%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESWaterSystem.cpp[0m
+[0m[38;5;2;1m[ 84%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TESWorldSpace.cpp[0m
+[0m[38;5;2;1m[ 84%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\ThumbstickEvent.cpp[0m
+[0m[38;5;2;1m[ 85%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TutorialMenu.cpp[0m
+[0m[38;5;2;1m[ 85%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\T\TypeInfo.cpp[0m
+[0m[38;5;2;1m[ 85%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\U\UI.cpp[0m
+[0m[38;5;2;1m[ 85%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\U\UI3DSceneManager.cpp[0m
+[0m[38;5;2;1m[ 86%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\U\UIBlurManager.cpp[0m
+[0m[38;5;2;1m[ 86%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\U\UIMessageQueue.cpp[0m
+[0m[38;5;2;1m[ 86%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\U\UnlinkedTypes.cpp[0m
+[0m[38;5;2;1m[ 86%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\U\UserEvents.cpp[0m
+[0m[38;5;2;1m[ 86%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\V\Variable.cpp[0m
+[0m[38;5;2;1m[ 87%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\V\VirtualMachine.cpp[0m
+[0m[38;5;2;1m[ 87%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\RE\Z\ZeroFunctionArguments.cpp[0m
+[0m[38;5;2;1m[ 87%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\API.cpp[0m
+[0m[38;5;2;1m[ 87%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\Impl\PCH.cpp[0m
+[0m[38;5;2;1m[ 88%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\InputMap.cpp[0m
+[0m[38;5;2;1m[ 88%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\Interfaces.cpp[0m
+[0m[38;5;2;1m[ 88%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\Logger.cpp[0m
+[0m[38;5;2;1m[ 88%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\RegistrationSet.cpp[0m
+[0m[38;5;2;1m[ 88%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\RegistrationSetUnique.cpp[0m
+[0m[38;5;2;1m[ 89%]:[0m [38;5;5;1m<commonlibsse>[0m compiling.release deps\commonlibsse\src\SKSE\Translation.cpp[0m
+[0m[38;5;2;1m[ 89%]:[0m [38;5;5;1m<commonlib-shared>[0m [38;5;5;1marchiving.release commonlib-shared.lib[0m
+[0m[38;5;2;1m[ 89%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Ability.cpp[0m
+[0m[38;5;2;1m[ 89%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Animation.cpp[0m
+[0m[38;5;2;1m[ 90%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\ArmorManager.cpp[0m
+[0m[38;5;2;1m[ 90%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Attack.cpp[0m
+[0m[38;5;2;1m[ 90%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Camera.cpp[0m
+[0m[38;5;2;1m[ 90%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\FormManager.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^
+D:\a\Drago2\Drago2\src\Settings.h(8,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+class Settings : public REX::Singleton<Settings>
+                             ^[0m
+[0m[38;5;2;1m[ 90%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Hooks.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^[0m
+[0m[38;5;2;1m[ 91%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Input.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\Attack.h(5,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^
+D:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^
+D:\a\Drago2\Drago2\src\Settings.h(8,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+class Settings : public REX::Singleton<Settings>
+                             ^[0m
+[0m[38;5;2;1m[ 91%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\main.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\ArmorManager.h(7,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^
+D:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^[0m
+[0m[38;5;2;1m[ 91%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Movement.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\Attack.h(5,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^
+D:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^
+D:\a\Drago2\Drago2\src\Settings.h(8,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+class Settings : public REX::Singleton<Settings>
+                             ^[0m
+[0m[38;5;2;1m[ 91%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Papyrus.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\Settings.h(8,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+class Settings : public REX::Singleton<Settings>
+                             ^
+D:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^[0m
+[0m[38;5;2;1m[ 92%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\PlayerEvents.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^[0m
+[0m[38;5;2;1m[ 92%]:[0m [38;5;5;1m<FlyingMOD>[0m compiling.release src\Riding.cpp[0m
+[0m[38;5;3;1mD:\a\Drago2\Drago2\src\Input.h(7,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>, public RE::BSTEventSink<RE::InputEvent*>
+	                            ^
+D:\a\Drago2\Drago2\src\Settings.h(8,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+class Settings : public REX::Singleton<Settings>
+                             ^
+D:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^[0m
+[0m[1;38;5;1;1merror: [0mMovement.cpp
+D:\a\Drago2\Drago2\src\Settings.h(8,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+class Settings : public REX::Singleton<Settings>
+                             ^
+D:\a\Drago2\Drago2\src\FormManager.h(18,30): warning C4996: 'REX::Singleton': Renamed to 'REX::TSingleton'
+	class Manager : public REX::Singleton<Manager>
+	                            ^
+src\Movement.cpp(23,9): error C2039: 'safe_write': is not a member of 'REL'
+			REL::safe_write(target.address() + setSpeedOffset - 7, patch, 7);
+			     ^
+deps\commonlibsse\lib\commonlib-shared\include\REL/THook.h(226,11): note: see declaration of 'REL'
+namespace REL
+          ^
+src\Movement.cpp(23,9): error C3861: 'safe_write': identifier not found
+			REL::safe_write(target.address() + setSpeedOffset - 7, patch, 7);
+			     ^
+src\Movement.cpp(28,9): error C2039: 'safe_write': is not a member of 'REL'
+			REL::safe_write(target.address() + setCurrentMovementSpeedOffset - 13, patch2, 13);
+			     ^
+deps\commonlibsse\lib\commonlib-shared\include\REL/THook.h(226,11): note: see declaration of 'REL'
+namespace REL
+          ^
+src\Movement.cpp(28,9): error C3861: 'safe_write': identifier not found
+			REL::safe_write(target.address() + setCurrentMovementSpeedOffset - 13, patch2, 13);
+			     ^
+
+  [38;5;3m> in [1msrc\Movement.cpp[0m
