@@ -8,6 +8,8 @@ on:
 jobs:
   windows:
     runs-on: windows-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -30,7 +32,22 @@ jobs:
         run: xmake f --mode=release --commonlib_xbyak=y --yes
 
       - name: Build
-        run: xmake -y
+        shell: bash
+        run: |
+          xmake -y 2>&1 | tee build.log
+          exit ${PIPESTATUS[0]}
+
+      - name: Publish error log
+        if: failure()
+        shell: bash
+        run: |
+          tail -n 1000 build.log > error-tail.log || cp build.log error-tail.log
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B build-errors
+          git add error-tail.log
+          git commit -m "chore: publish build error log (auto)"
+          git push origin HEAD:refs/heads/build-errors --force
 
       - name: Upload DLL
         uses: actions/upload-artifact@v4
