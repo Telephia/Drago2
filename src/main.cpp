@@ -62,7 +62,7 @@ extern "C" DLLEXPORT constinit auto SKSEPlugin_Version = []() {
 	return version;
 }();
 #else
-extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Query(const SKSE::QueryInterface* skse, SKSE::PluginInfo* info)
+extern "C" DLLEXPORT bool SKSEPlugin_Query(const SKSE::QueryInterface* skse, SKSE::PluginInfo* info)
 {
 	info->infoVersion = SKSE::PluginInfo::kVersion;
 	info->name = Plugin::NAME.data();
@@ -82,7 +82,7 @@ extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Query(const SKSE::QueryInterface* s
 	return true;
 }
 #endif
-extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Load(const SKSE::LoadInterface* skse)
+extern "C" DLLEXPORT bool SKSEPlugin_Load(const SKSE::LoadInterface* skse)
 {
 	InitializeLogging();
 
