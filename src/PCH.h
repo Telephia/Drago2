@@ -40,7 +40,7 @@ namespace SKSE
         // Nachfolger ist REX::FAIL (loggt kritisch, zeigt Meldungsbox, beendet den Prozess)
         [[noreturn]] inline void report_and_fail(std::string_view a_message)
         {
-            REX::FAIL(a_message);
+            REX::FAIL<void>{a_message};
             std::unreachable();
         }
     }
