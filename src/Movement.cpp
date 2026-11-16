@@ -20,12 +20,12 @@ namespace Movement
 
 			trampoline.write_call<5>(target.address() + setSpeedOffset, Func);
 			std::uint8_t patch[] = { 0x48, 0x8B, 0xCF, 0x90, 0x90, 0x90, 0x90 };
-			REL::safe_write(target.address() + setSpeedOffset - 7, patch, 7);
+			REL::Write(target.address() + setSpeedOffset - 7, patch, 7);
 
 			trampoline.write_call<5>(target.address() + setCurrentMovementSpeedOffset, Func2);
 
 			std::uint8_t patch2[] = { 0x48, 0x8B, 0xCF, 0x48, 0x8D, 0x54, 0x24, 0x5C, 0x90, 0x90, 0x90, 0x90, 0x90 };
-			REL::safe_write(target.address() + setCurrentMovementSpeedOffset - 13, patch2, 13);
+			REL::Write(target.address() + setCurrentMovementSpeedOffset - 13, patch2, 13);
 		}
 
 	private:
